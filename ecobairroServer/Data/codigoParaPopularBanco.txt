@@ -1,0 +1,37 @@
+﻿// Populando banco
+migrationBuilder.InsertData(
+    table: "Bairros",
+    columns: new[] { "Id", "Nome", "Pontuacao" },
+    values: new object[,]
+    {
+        { 1, "Jundiapeba", 0 }
+    });
+
+migrationBuilder.InsertData(
+    table: "Users",
+    columns: new[] { "Id", "Nome", "Username", "Password", "Email", "Role" },
+    values: new object[,]
+    {
+        { 1, "Municipe", "municipe", "123", "municipe@email.com", "Municipe" },
+        { 2, "Fiscal", "fiscal", "123", "fiscal@email.com", "Fiscal" },
+        { 3, "Ronan Benitis", "ronanbenitis", "123", "ronanbenitis@email.com", "Municipe" },
+        { 4, "Henrique Moura", "henriquemoura", "123", "henriquemoura@email.com", "Fiscal" }
+    });
+
+migrationBuilder.InsertData(
+    table: "Municipes",
+    columns: new[] { "Id", "Cpf", "UserId" },
+    values: new object[,]
+    {
+        { 1, "CPF123", 1 },
+        { 2, "CPF234", 3 }
+    });
+
+migrationBuilder.InsertData(
+    table: "Fiscais",
+    columns: new[] { "Id", "Rgf", "UserId" },
+    values: new object[,]
+    {
+        { 1, "RGF123", 2 },
+        { 2, "RGF234", 4 }
+    });

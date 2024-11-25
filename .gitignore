@@ -1,0 +1,11 @@
+# Pasta de arquivos de build gerados automaticamente
+obj/
+# Pasta de arquivos temporários do compilador
+bin/
+# Configurações específicas de usuário
+*.user
+# Logs temporários
+*.log
+# Configuração de IDE
+.vs/
+*.suo
