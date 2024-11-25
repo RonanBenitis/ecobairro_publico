@@ -1,5 +1,14 @@
 <img src="_readme_assets/readme_logo.png" alt="Logo">
 
+## Autores
+- Frontend: [Henrique Moura](https://github.com/Reyralona)
+- Backend e documentação: [Ronan Benitis](https://github.com/RonanBenitis)
+
+## Controle de versionamento
+Este projeto tem seu controle de versionamento em um repositório privado. Por conta de conteúdo sigiloso (API Key), optou-se por disponibilizar esta versão como privada publicizando um exemplo de .env.
+
+Mantem-se o repositório principal como privado para preservar o controle de versionamento.
+
 ## Sobre o projeto
 O **EcoBairro** é um **aplicativo mobile para de gestão comunitária de lixo e entulho** desenvolvido para ajudar a comunidade a reportar e solucionar problemas de descarte irregular de lixo e entulho, com apoio da Prefeitura. Através do aplicativo, moradores podem indicar locais que necessitam de limpeza, e outros cidadão podem "adotar" essas tarefas, contribuindo para um bairro mais limpo e organizado. O objetivo é promover a conscientização ambiental, o engajamento comunitário e o incentivo ao voluntariado, tornando as cidades mais limpas e colaborativas.
 
